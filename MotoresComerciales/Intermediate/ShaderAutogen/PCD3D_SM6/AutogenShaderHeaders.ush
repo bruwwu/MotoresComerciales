@@ -17,14 +17,9 @@ float SampleDeviceZFromSceneTexturesTempCopy(float2 UV)
 
 void EncodeGBufferToMRT(inout FPixelShaderOut Out, FGBufferData GBuffer, float QuantizationBias)
 {
-	float4 MrtFloat1 = 0.0f;
 
-	MrtFloat1.x = GBuffer.PrecomputedShadowFactors.x;
-	MrtFloat1.y = GBuffer.PrecomputedShadowFactors.y;
-	MrtFloat1.z = GBuffer.PrecomputedShadowFactors.z;
-	MrtFloat1.w = GBuffer.PrecomputedShadowFactors.w;
 
-	Out.MRT[1] = MrtFloat1;
+	Out.MRT[1] = float4(0.0f, 0.0f, 0.0f, 0.0f);
 	Out.MRT[2] = float4(0.0f, 0.0f, 0.0f, 0.0f);
 	Out.MRT[3] = float4(0.0f, 0.0f, 0.0f, 0.0f);
 	Out.MRT[4] = float4(0.0f, 0.0f, 0.0f, 0.0f);
@@ -34,8 +29,7 @@ void EncodeGBufferToMRT(inout FPixelShaderOut Out, FGBufferData GBuffer, float Q
 }
 
 
-FGBufferData  DecodeGBufferDataDirect(float4 InMRT1,
-		 
+FGBufferData  DecodeGBufferDataDirect( 
 	float CustomNativeDepth,
 	float4 AnisotropicData,
 	uint CustomStencil,
@@ -47,10 +41,6 @@ FGBufferData  DecodeGBufferDataDirect(float4 InMRT1,
 	Ret.WorldNormal = float3(0,0,1);
 	Ret.Depth = 0.f;
 	Ret.ShadingModelID = 1;
-	Ret.PrecomputedShadowFactors.x = InMRT1.x;
-	Ret.PrecomputedShadowFactors.y = InMRT1.y;
-	Ret.PrecomputedShadowFactors.z = InMRT1.z;
-	Ret.PrecomputedShadowFactors.w = InMRT1.w;
 	
 	Ret.WorldTangent = AnisotropicData.xyz;
 	Ret.Anisotropy = AnisotropicData.w;
@@ -77,10 +67,8 @@ FGBufferData DecodeGBufferDataUV(float2 UV, bool bGetNormalizedNormal = true)
 	float SceneDepth = CalcSceneDepth(UV);
 	float4 AnisotropicData = Texture2DSampleLevel(SceneTexturesStruct.GBufferFTexture, SceneTexturesStruct_GBufferFTextureSampler, UV, 0).xyzw;
 
-	float4 InMRT1 = Texture2DSampleLevel(SceneTexturesStruct.GBufferETexture, SceneTexturesStruct_GBufferETextureSampler, UV, 0).xyzw;
 
-	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		 
+	FGBufferData Ret = DecodeGBufferDataDirect( 
 		CustomNativeDepth,
 		AnisotropicData,
 		CustomStencil,
@@ -100,10 +88,8 @@ FGBufferData DecodeGBufferDataUint(uint2 PixelPos, bool bGetNormalizedNormal = t
 	float SceneDepth = CalcSceneDepth(PixelPos);
 	float4 AnisotropicData = SceneTexturesStruct.GBufferFTexture.Load(int3(PixelPos, 0)).xyzw;
 
-	float4 InMRT1 = SceneTexturesStruct.GBufferETexture.Load(int3(PixelPos, 0)).xyzw;
 
-	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		 
+	FGBufferData Ret = DecodeGBufferDataDirect( 
 		CustomNativeDepth,
 		AnisotropicData,
 		CustomStencil,
@@ -124,10 +110,8 @@ FGBufferData DecodeGBufferDataSceneTextures(float2 UV, bool bGetNormalizedNormal
 	float SceneDepth = ConvertFromDeviceZ(DeviceZ);
 	float4 AnisotropicData = GBufferFTexture.SampleLevel(GBufferFTextureSampler, UV, 0).xyzw;
 
-	float4 InMRT1 = GBufferETexture.SampleLevel(GBufferETextureSampler, UV, 0).xyzw;
 
-	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		 
+	FGBufferData Ret = DecodeGBufferDataDirect( 
 		CustomNativeDepth,
 		AnisotropicData,
 		CustomStencil,
@@ -148,10 +132,8 @@ FGBufferData DecodeGBufferDataSceneTexturesLoad(uint2 PixelCoord, bool bGetNorma
 	float SceneDepth = ConvertFromDeviceZ(DeviceZ);
 	float4 AnisotropicData = GBufferFTexture.Load(int3(PixelCoord, 0)).xyzw;
 
-	float4 InMRT1 = GBufferETexture.Load(int3(PixelCoord, 0)).xyzw;
 
-	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		 
+	FGBufferData Ret = DecodeGBufferDataDirect( 
 		CustomNativeDepth,
 		AnisotropicData,
 		CustomStencil,
@@ -172,19 +154,14 @@ FGBufferData DecodeGBufferDataSceneTexturesLoad(uint2 PixelCoord, bool bGetNorma
 void EncodeGBufferToMRT(inout FPixelShaderOut Out, FGBufferData GBuffer, float QuantizationBias)
 {
 	float4 MrtFloat1 = 0.0f;
-	float4 MrtFloat2 = 0.0f;
 
 	MrtFloat1.x = GBuffer.Velocity.x;
 	MrtFloat1.y = GBuffer.Velocity.y;
 	MrtFloat1.z = GBuffer.Velocity.z;
 	MrtFloat1.w = GBuffer.Velocity.w;
-	MrtFloat2.x = GBuffer.PrecomputedShadowFactors.x;
-	MrtFloat2.y = GBuffer.PrecomputedShadowFactors.y;
-	MrtFloat2.z = GBuffer.PrecomputedShadowFactors.z;
-	MrtFloat2.w = GBuffer.PrecomputedShadowFactors.w;
 
 	Out.MRT[1] = MrtFloat1;
-	Out.MRT[2] = MrtFloat2;
+	Out.MRT[2] = float4(0.0f, 0.0f, 0.0f, 0.0f);
 	Out.MRT[3] = float4(0.0f, 0.0f, 0.0f, 0.0f);
 	Out.MRT[4] = float4(0.0f, 0.0f, 0.0f, 0.0f);
 	Out.MRT[5] = float4(0.0f, 0.0f, 0.0f, 0.0f);
@@ -194,7 +171,6 @@ void EncodeGBufferToMRT(inout FPixelShaderOut Out, FGBufferData GBuffer, float Q
 
 
 FGBufferData  DecodeGBufferDataDirect(float4 InMRT1,
-	float4 InMRT2,
 		 
 	float CustomNativeDepth,
 	float4 AnisotropicData,
@@ -211,10 +187,6 @@ FGBufferData  DecodeGBufferDataDirect(float4 InMRT1,
 	Ret.Velocity.y = InMRT1.y;
 	Ret.Velocity.z = InMRT1.z;
 	Ret.Velocity.w = InMRT1.w;
-	Ret.PrecomputedShadowFactors.x = InMRT2.x;
-	Ret.PrecomputedShadowFactors.y = InMRT2.y;
-	Ret.PrecomputedShadowFactors.z = InMRT2.z;
-	Ret.PrecomputedShadowFactors.w = InMRT2.w;
 	
 	Ret.WorldTangent = AnisotropicData.xyz;
 	Ret.Anisotropy = AnisotropicData.w;
@@ -242,10 +214,8 @@ FGBufferData DecodeGBufferDataUV(float2 UV, bool bGetNormalizedNormal = true)
 	float4 AnisotropicData = Texture2DSampleLevel(SceneTexturesStruct.GBufferFTexture, SceneTexturesStruct_GBufferFTextureSampler, UV, 0).xyzw;
 
 	float4 InMRT1 = Texture2DSampleLevel(SceneTexturesStruct.GBufferVelocityTexture, SceneTexturesStruct_GBufferVelocityTextureSampler, UV, 0).xyzw;
-	float4 InMRT2 = Texture2DSampleLevel(SceneTexturesStruct.GBufferETexture, SceneTexturesStruct_GBufferETextureSampler, UV, 0).xyzw;
 
 	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		InMRT2,
 		 
 		CustomNativeDepth,
 		AnisotropicData,
@@ -267,10 +237,8 @@ FGBufferData DecodeGBufferDataUint(uint2 PixelPos, bool bGetNormalizedNormal = t
 	float4 AnisotropicData = SceneTexturesStruct.GBufferFTexture.Load(int3(PixelPos, 0)).xyzw;
 
 	float4 InMRT1 = SceneTexturesStruct.GBufferVelocityTexture.Load(int3(PixelPos, 0)).xyzw;
-	float4 InMRT2 = SceneTexturesStruct.GBufferETexture.Load(int3(PixelPos, 0)).xyzw;
 
 	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		InMRT2,
 		 
 		CustomNativeDepth,
 		AnisotropicData,
@@ -293,10 +261,8 @@ FGBufferData DecodeGBufferDataSceneTextures(float2 UV, bool bGetNormalizedNormal
 	float4 AnisotropicData = GBufferFTexture.SampleLevel(GBufferFTextureSampler, UV, 0).xyzw;
 
 	float4 InMRT1 = GBufferVelocityTexture.SampleLevel(GBufferVelocityTextureSampler, UV, 0).xyzw;
-	float4 InMRT2 = GBufferETexture.SampleLevel(GBufferETextureSampler, UV, 0).xyzw;
 
 	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		InMRT2,
 		 
 		CustomNativeDepth,
 		AnisotropicData,
@@ -319,10 +285,8 @@ FGBufferData DecodeGBufferDataSceneTexturesLoad(uint2 PixelCoord, bool bGetNorma
 	float4 AnisotropicData = GBufferFTexture.Load(int3(PixelCoord, 0)).xyzw;
 
 	float4 InMRT1 = GBufferVelocityTexture.Load(int3(PixelCoord, 0)).xyzw;
-	float4 InMRT2 = GBufferETexture.Load(int3(PixelCoord, 0)).xyzw;
 
 	FGBufferData Ret = DecodeGBufferDataDirect(InMRT1,
-		InMRT2,
 		 
 		CustomNativeDepth,
 		AnisotropicData,
