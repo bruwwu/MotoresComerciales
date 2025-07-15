@@ -1,0 +1,805 @@
+{
+	"AssetInfoVersion": 2,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "1D710B0080AEB4CEE94DC67DEB33292996AFC87D",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_NoCollisionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B1FD4F05E33B24CA8CD29FA636EF7FCA4680946E",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/SplineEditorMeshMat"
+			]
+		},
+		{
+			"ShaderMapHash": "1D264A08467007ACCCA4DEE8E19E78208CD896C6",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "6016CE081DD4529D0697294041DA92B02B30CED1",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultLightFunctionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7DA24909887A4619C58D99D851A44AC8BAC756EB",
+			"Assets": [
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+			]
+		},
+		{
+			"ShaderMapHash": "B0CE850B8FE7DAC9D88E0E08896EBAF48DBC0971",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "0943410D341EA421ED08F1E5A4D844000074A9D1",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "351C9A0DAA5C47986C77EF822E504548BC749023",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "D186B20DD5E070717E754DA109A71DCCA6E6D99E",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough",
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "2B5BC90D877F42260617C82C33A23BB228B7C903",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Main"
+			]
+		},
+		{
+			"ShaderMapHash": "591E8D0FEF21D14E2285BA2B0E72526489FA0665",
+			"Assets": [
+				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark"
+			]
+		},
+		{
+			"ShaderMapHash": "4BED2510D83328E562E00E8976AD0B0412591700",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_skybox_day"
+			]
+		},
+		{
+			"ShaderMapHash": "7EADE6110B0A42E0E6D19791EC277B00F3676A96",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Unlit_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "E50F4D1445708FBD4FBC9F65E3CF43D418E21C6C",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "C5637816514A8BC658420CF04E3AC5968E9C6AEE",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "8F8DE51AD48E68894CA7DD0E26B7B501B520A2F7",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
+			]
+		},
+		{
+			"ShaderMapHash": "0E2C361B3D1DA2F3E0A4ECC86431FE3BE7173F44",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
+			]
+		},
+		{
+			"ShaderMapHash": "3569E31D328403BA5A73C7B8467482E3EE51AB6D",
+			"Assets": [
+				"/Game/Stylized_PBR_Nature/Rocks/Materials/M_Rock_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "4E4A3720B134C59893C4F59CBE08161E5241E0AF",
+			"Assets": [
+				"/Game/VRS_LowPolyNatureEssentials/Materials/M_BaseMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B88309221768094BA346FEC21A01C62DAA2DDCD3",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_water"
+			]
+		},
+		{
+			"ShaderMapHash": "0677E622D08BDBABC0B501EA84E72925CE93EBEF",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "BA81B5277483D5A2A3D3CE8FBE767072B2650BDC",
+			"Assets": [
+				"/Engine/EditorMaterials/HelpActorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "CC0D262D9D8AE8CA5E761C911F1E8C0E8EB1EB65",
+			"Assets": [
+				"/Engine/EngineMaterials/NaniteHiddenSectionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "CA6FCC2D8EE443926ACC6B9DCD280A0C60104CCB",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "115F172E8E1F85567F1003953A46E93649A9D550",
+			"Assets": [
+				"/Engine/EngineSky/M_SimpleSkyDome"
+			]
+		},
+		{
+			"ShaderMapHash": "6DF6362E92FE4BC773C68CB91305F88AE869306C",
+			"Assets": [
+				"/Interchange/gltf/M_Sheen"
+			]
+		},
+		{
+			"ShaderMapHash": "69EADB3036E6720BB4838A306AC1310DA24C2468",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "6B25B432CF7593BBF3F79DBB07FD6AB3F937BC7C",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_CLR"
+			]
+		},
+		{
+			"ShaderMapHash": "C4B8E735093D5571286CC577FE27A80E87E1E657",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Default_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "43DDD537E53B5C931E8F218BB85BBFD98C492ABD",
+			"Assets": [
+				"/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02",
+				"/Game/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02"
+			]
+		},
+		{
+			"ShaderMapHash": "BE125F3A6AC31D2553692C4BCE0213D30F7B2BB2",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Sheen_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "98F9403BEC4A3A2D96E3CCD06FDC40842F5E426F",
+			"Assets": [
+				"/Game/ThirdPerson/Models/Canelita/b0",
+				"/Game/ThirdPerson/Models/Canelita/m"
+			]
+		},
+		{
+			"ShaderMapHash": "84D59240CD005C0540999D36CDFC20CC27F059F6",
+			"Assets": [
+				"/Game/ThirdPerson/Materials/grass"
+			]
+		},
+		{
+			"ShaderMapHash": "997FEF4033E1FB5CED0A6F4F20E050C003399CB4",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+			]
+		},
+		{
+			"ShaderMapHash": "576EF244A5149DB9B2409C540C308D1C0B1C790E",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "7D124D45E5CFEB2A692DB3B5B7CE3F07461525D4",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "FAFA914558C273F06748C5B8DC717867F1ACB14C",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/maps/map_village_day",
+				"/Game/Fantastic_Village_Pack/maps/map_village_night"
+			]
+		},
+		{
+			"ShaderMapHash": "1B8EA146920882728EA9E96CB28C2A848AAD2783",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_landscape"
+			]
+		},
+		{
+			"ShaderMapHash": "D23FC6491DFDFE224B784D94A26121AE0CD21956",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "E55CA84AB442EA7847733C4AF5C80E786819770A",
+			"Assets": [
+				"/Engine/BasicShapes/BasicShapeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "1348FB4A301BDC68272DFF96F3C1AC0410D9FFE2",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "1CB8624CE699993ADF1C3F55B2AE2E2FF863304F",
+			"Assets": [
+				"/Game/ThirdPerson/Maps/Moco"
+			]
+		},
+		{
+			"ShaderMapHash": "79DE154F9711350EE95DFA2115A6748A2ED36AB3",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "01B5B65004C0AF8CA37E227436AE4B777FC58102",
+			"Assets": [
+				"/MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor"
+			]
+		},
+		{
+			"ShaderMapHash": "94C7C3530EC986DD44C33B6D06A3F998E371A2A0",
+			"Assets": [
+				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "29C88554FED581950279DF6E711F74C770E06C68",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/maps/map_village_day",
+				"/Game/Fantastic_Village_Pack/maps/map_village_night"
+			]
+		},
+		{
+			"ShaderMapHash": "EF2386543518A4B4DB5DDBFE1CF46AF87B88E881",
+			"Assets": [
+				"/Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud"
+			]
+		},
+		{
+			"ShaderMapHash": "9D51BD55B3211CF2A436B46B54E8E5D12DCDE82F",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_transparent"
+			]
+		},
+		{
+			"ShaderMapHash": "AD9B255635FE08B752A25361FAED328E91C0A224",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Sheen_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "A84ACA56DB6569E97074FA8DDB827CDD2068FF92",
+			"Assets": [
+				"/Game/LevelPrototyping/Materials/M_PrototypeGrid",
+				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02"
+			]
+		},
+		{
+			"ShaderMapHash": "049FE058FAFF4F56AC0624B3489222475C224027",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_transparent_grass_wind"
+			]
+		},
+		{
+			"ShaderMapHash": "4AE1EF5818627FF82BFE019705CB9F7ACD849E5C",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "936E5A5D7EB7CDE3D6482A8DDDE265F8AECFBDE9",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Sheen_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "7D00DB5E99F6E14063BDE07B2342D54BE5E9D0D2",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Xray",
+				"/Game/ThirdPerson/Models/yonFBX/Black_001",
+				"/Game/ThirdPerson/Models/yonFBX/Metal_002",
+				"/Game/ThirdPerson/Models/yonFBX/QS_002",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Fabric_3",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Plastic_1",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_10_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_11_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_12_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_13_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_14_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_15_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_16_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_17_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_18_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_19_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_1_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_2_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_3_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_4_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_5_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_6_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_7_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_8_001",
+				"/Game/ThirdPerson/Models/yonFBX/Studio_Setup_Mtl_9_001",
+				"/Game/ThirdPerson/Models/yonFBX/White_002"
+			]
+		},
+		{
+			"ShaderMapHash": "3D85A660C1A74B00533EF9FC21FEC4F0B6E3E33D",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Default_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "411D54624DC4E43A7BB8180DF5BB683E43973602",
+			"Assets": [
+				"/Engine/EngineMaterials/M_InvalidLightmapSettings"
+			]
+		},
+		{
+			"ShaderMapHash": "FF646B64898B91C00B77D57E66612DFAD21E47B1",
+			"Assets": [
+				"/Engine/VREditor/SnapGrid/SnapGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A1625365A1BE3F2DC43BFDE2367D5E4648933215",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial",
+				"/Engine/EngineMaterials/FlattenMaterial_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "31EAE96840129EFEE11FAFB87400A6643BA06035",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigXRayMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "867D2D6A903AD0654A1F067AF781FE6B366A6156",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+			]
+		},
+		{
+			"ShaderMapHash": "F636BF6B3CD17A9CD8F340CCD9D55C531B5B31F9",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_opaque_normal"
+			]
+		},
+		{
+			"ShaderMapHash": "11CD846E77ADF4613B0FFFC220F3A4978DA62DD3",
+			"Assets": [
+				"/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body"
+			]
+		},
+		{
+			"ShaderMapHash": "4AE09C6E646EF0B18D6D9E115B4A3F200D4033BA",
+			"Assets": [
+				"/Engine/EditorMaterials/Dataflow/DataflowVertexMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "0693BD6F7462DFE35D67EEBF843C322677B9DC13",
+			"Assets": [
+				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
+			]
+		},
+		{
+			"ShaderMapHash": "4F921870092F9D8F0FE53436D56A0F3FD5564806",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Default_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "D489E172C8F0557AD26F430F82A6113017D2147E",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Sheen_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "D038F073EC55DE2861051C18195EC2098CCF5D79",
+			"Assets": [
+				"/Game/Stylized_PBR_Nature/Maps/Asset_Scene"
+			]
+		},
+		{
+			"ShaderMapHash": "84726B804E0A489DCBD3506C613A3CC7846B1F43",
+			"Assets": [
+				"/ControlRig/M_Manip"
+			]
+		},
+		{
+			"ShaderMapHash": "33088A8200E28D42A11D0802B6494B17A179C540",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Unlit_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "B057EA82826DA656A1005B0C330713C1B7ECF3F2",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "EA53A383B4F3BBA0EC50C45B4705F5B6AD0D0126",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Unlit_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "C4073D865AB7E511627C851E325AFBB51A401D71",
+			"Assets": [
+				"/Engine/EngineMaterials/GizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "2A1C1888A791106B5E1243362F1CE189555EF93B",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "6DFF6889D27BFF29F82277D5DB0DA653AB2D42C8",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "68D0868BCE90790B0EEADCA59FE20293E66C8278",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/M_FX_windtrail"
+			]
+		},
+		{
+			"ShaderMapHash": "2236988BB927461BD9C73CE6AEB1D66FB49549CA",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "5EEAC48FB7E2761952192EF4C0B168C4580FC98B",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_opaque_emissive"
+			]
+		},
+		{
+			"ShaderMapHash": "86DAEA8F1FF424D07D0D78D3E0B3CB012BCE2E24",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/M_CLR_assets_grid"
+			]
+		},
+		{
+			"ShaderMapHash": "B985F18FF7058EB56EB72D69A6AFC942A0A8CB2C",
+			"Assets": [
+				"/Game/Stylized_PBR_Nature/Terrain/M_Landscape"
+			]
+		},
+		{
+			"ShaderMapHash": "4E281A93AF42354F205217F2886F0A9733709B07",
+			"Assets": [
+				"/Game/VRS_LowPolyNatureEssentials/Materials/M_BaseTransparnet"
+			]
+		},
+		{
+			"ShaderMapHash": "1975BE93F42DB0EACA8F3228516BBA54DB34EBDC",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultPostProcessMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "45552F943D5E1FC79F8E545D1681B527FD6E8174",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "73929D95507B262CF1675F41CAE843CE67A65D56",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_transparent_plants_wind"
+			]
+		},
+		{
+			"ShaderMapHash": "88E0A4978319F2F22FA4B48FBBE3720BCD4A04B6",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Unlit_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "B31FDD9BF3C48BFAAACA9BFCBDE2C2C4AEBBB589",
+			"Assets": [
+				"/Paper2D/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "CFE9EF9C3C7EF79BA02C55C89D7FE48F7B26C469",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/MI_CLR_emission_yellow"
+			]
+		},
+		{
+			"ShaderMapHash": "169E459E116B8400D23174450F132107AF72D61D",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Unlit_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "B85C4F9F3DBE0D2E374518A2BB2A4AEB8D209904",
+			"Assets": [
+				"/Engine/EngineMaterials/WorldGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A9789DA92C9E4AE3D210C62F4DE064A6D2EEC507",
+			"Assets": [
+				"/Paper2D/OpaqueUnlitSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "E912ABA938D487E22460E2E2FE133CC5B8335A29",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Default_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "F0A02DAEC6C300246CBD0687D2A7179E69A7D875",
+			"Assets": [
+				"/Game/ThirdPerson/Materials/BaseCanela"
+			]
+		},
+		{
+			"ShaderMapHash": "FE397DAEDC429353D7B8F19916EBA3A782660D17",
+			"Assets": [
+				"/Engine/EngineMaterials/RemoveSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "5646B8B125AD1FD17D22245D9C1B41D4FF0B0C75",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/maps/map_village_day",
+				"/Game/Fantastic_Village_Pack/maps/map_village_night"
+			]
+		},
+		{
+			"ShaderMapHash": "23D860B6DA3F25ED7CF7E2C1E38B97FA8B36254E",
+			"Assets": [
+				"/Interchange/gltf/M_Default"
+			]
+		},
+		{
+			"ShaderMapHash": "365381B73104D10B48C4D5333F2CA202D9CB8CD4",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/maps/map_village_day",
+				"/Game/Fantastic_Village_Pack/maps/map_village_night"
+			]
+		},
+		{
+			"ShaderMapHash": "4B5D9DBED4CC29E01697C40DFDCD0EB02FE51629",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "396BF9C030E51FDBF1F23A7753CD8D4B7DF93680",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_flags_wind"
+			]
+		},
+		{
+			"ShaderMapHash": "805D8CC1D9489425912302C177DC4AAE78E64D6D",
+			"Assets": [
+				"/Game/Stylized_PBR_Nature/Foliage/Materials/M_Foliage_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "B2490BC33CCDF2CBE0F9E1723CE6AC4DBFD29CCE",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_SpecularGlossiness_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "C458D1C44AFD280A5927DA2A1A29017619D7BE9E",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A1D1E4C536B470CD206B65471F53FF4B2B69A123",
+			"Assets": [
+				"/Interchange/gltf/M_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "70BBC9C655CC7D58201B561CCEDD9485C1D5356C",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "499C07C8F89509112C842EB1F5D73BE1C89F4848",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/maps/map_village_day",
+				"/Game/Fantastic_Village_Pack/maps/map_village_night"
+			]
+		},
+		{
+			"ShaderMapHash": "50187DC8B48C1FD2E9E92D2D799A025A4BC3C67B",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Default_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "3F710CCBA5B6F20E4A6ED8476BEE111FFEFA231B",
+			"Assets": [
+				"/Game/Stylized_PBR_Nature/Terrain/M_Water_Basic"
+			]
+		},
+		{
+			"ShaderMapHash": "D7B2BDCBB6209C728F942CE68A7578A0CDD89074",
+			"Assets": [
+				"/Interchange/gltf/M_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "DD5DFFCBAA5AAD4B457B65D55F518B1713D07F44",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "E53947CC969ACBB6EE03513A4B119FA1914471A2",
+			"Assets": [
+				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "1D32BECDBAB64DCF3C86D74C18CD42E9F214B739",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Sheen_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "0742B8D542E5B07AAB75269F8B999D346E22F507",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
+			]
+		},
+		{
+			"ShaderMapHash": "107D21D7434CF2D0FA75CECAE988837200923040",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_Transmission_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "B4C12FDEB2401C869D5E562F78C745E8C3BA6770",
+			"Assets": [
+				"/Engine/EditorMaterials/Camera/CineMat"
+			]
+		},
+		{
+			"ShaderMapHash": "49488FDEFB96293D2B37564873BDBFA2BD22996F",
+			"Assets": [
+				"/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo"
+			]
+		},
+		{
+			"ShaderMapHash": "DF0746DFB2C265FD7513F432D58721D952FB7D92",
+			"Assets": [
+				"/Game/ThirdPerson/Models/Canelita/cloth_001",
+				"/Game/ThirdPerson/Models/Canelita/e_001"
+			]
+		},
+		{
+			"ShaderMapHash": "9A3A9FDF0880CA24B66DFE8771A66CDECA0AF5E1",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "112FBBDFB85FAB1A02DF99988CDC632AB7AD4D75",
+			"Assets": [
+				"/Interchange/gltf/M_SpecularGlossiness"
+			]
+		},
+		{
+			"ShaderMapHash": "C35C42E1740A08A3145F57361ED4AFB367F6FA06",
+			"Assets": [
+				"/Game/VRS_LowPolyNatureEssentials/Materials/MI_BaseEmissive"
+			]
+		},
+		{
+			"ShaderMapHash": "10BA91E1711D81B30DB54B27572690412DDFDA23",
+			"Assets": [
+				"/Game/LevelPrototyping/Materials/M_Solid"
+			]
+		},
+		{
+			"ShaderMapHash": "3A9022E377DE78173CDD42CF25F7DC39ECF0F37A",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultParticle"
+			]
+		},
+		{
+			"ShaderMapHash": "CA60C4E8044132A663A603D6473E8C19F79AFA82",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultDeferredDecalMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "837835EA6D97D3A5674C1BB2AE7F58B7102E00C6",
+			"Assets": [
+				"/Game/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01",
+				"/Game/Characters/Mannequins/Materials/M_Mannequin"
+			]
+		},
+		{
+			"ShaderMapHash": "55E6FCEAB3DA74597B2E5E7B0C570D30C4C7F30A",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/maps/map_village_day",
+				"/Game/Fantastic_Village_Pack/maps/map_village_night"
+			]
+		},
+		{
+			"ShaderMapHash": "5E1BCEF0CCD2AA225868F7E2F40FE5AD969B250F",
+			"Assets": [
+				"/Engine/EngineMaterials/EmissiveMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "F6A494F537C4E306F81EC8C39BC1B3AE491EC112",
+			"Assets": [
+				"/Interchange/gltf/M_Unlit"
+			]
+		},
+		{
+			"ShaderMapHash": "C9444FF8EF7200D4828DEB44AAE3EF592E9F640D",
+			"Assets": [
+				"/Game/Stylized_PBR_Nature/Foliage/Materials/M_Tree_Trunk_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "5311E2FCDFAE1F8072FDAEB1FC31F0DC6DFB135A",
+			"Assets": [
+				"/Game/ThirdPerson/Materials/BaseCanelite"
+			]
+		},
+		{
+			"ShaderMapHash": "021E05FE3FF158265AA9C1155AACEECCD2BCD9F9",
+			"Assets": [
+				"/Game/Fantastic_Village_Pack/materials/master_materials/M_Master_fire_smoke"
+			]
+		}
+	]
+}
