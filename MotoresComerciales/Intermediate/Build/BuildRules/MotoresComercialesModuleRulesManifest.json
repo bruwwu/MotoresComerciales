@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\bruwu\\OneDrive\\Documentos\\GitHub\\MotoresComerciales\\MotoresComerciales\\Intermediate\\Source\\MotoresComerciales.Build.cs",
+		"C:\\Users\\bruwu\\OneDrive\\Documentos\\GitHub\\MotoresComerciales\\MotoresComerciales\\Intermediate\\Source\\MotoresComerciales.Target.cs",
+		"C:\\Users\\bruwu\\OneDrive\\Documentos\\GitHub\\MotoresComerciales\\MotoresComerciales\\Intermediate\\Source\\MotoresComercialesClient.Target.cs",
+		"C:\\Users\\bruwu\\OneDrive\\Documentos\\GitHub\\MotoresComerciales\\MotoresComerciales\\Intermediate\\Source\\MotoresComercialesEditor.Target.cs",
+		"C:\\Users\\bruwu\\OneDrive\\Documentos\\GitHub\\MotoresComerciales\\MotoresComerciales\\Intermediate\\Source\\MotoresComercialesServer.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

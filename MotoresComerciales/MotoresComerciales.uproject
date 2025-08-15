@@ -16,10 +16,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "Water",
-			"Enabled": true
-		},
-		{
 			"Name": "Avalanche",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -27,6 +23,14 @@
 				"Linux",
 				"Mac"
 			]
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "GeometryCollectionPlugin",
+			"Enabled": true
 		}
 	]
 }
